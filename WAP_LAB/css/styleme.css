@@ -1,0 +1,64 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  color: #ac1c1c;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section > h4 {
+  color: #ac1c1c;
+  font-weight: normal;
+}
+
+
+
+section img {
+  width: 110px;
+  height: 110px;
+  border: 0.5px solid #ac1c1c;
+  border-radius: 50px;
+}
+
+dl {
+  font-size: 12px;
+}
+dl > dt {
+  color: #ac1c1c;
+}
+
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.colSection {
+  display: flex;
+  flex-flow: row;
+}
+
+.colSection .colItem {
+  text-align: center;
+  padding: 10px;
+}
+
+#jerseyNo {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #ac1c1c;
+  color: #ffc72c;
+}
