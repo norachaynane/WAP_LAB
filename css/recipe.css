@@ -1,0 +1,74 @@
+body {
+  background-color: #ffffff;
+  /* add background image */
+  background-image: url("../images/silverware.jpg");
+  /* stop moving background image */
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body p {
+  color: #404040;
+  font-size: 11pt;
+}
+
+/* set browser window width to 1024px */
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: table;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial;
+  font-size: 18pt;
+  font-weight: normal;
+  background-color: #f0f0f0;
+  color: #a4a400;
+  text-align: left;
+  text-decoration: underline;
+  letter-spacing: 0.25em;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: #a4a400;
+}
+
+/* Pie bullet */
+.ingredients li {
+  list-style-image: url("../images/pie_icon.gif");
+}
+
+/* recipe directions are strongly emphasized */
+.recipe-title {
+  font-weight: bold;
+}
+
+/* word with strike-out line (deleted word) */
+.deleted-word {
+  text-decoration: line-through;
+}
+
+blockquote {
+  background-color: #ffffa8;
+  font-style: italic;
+}
+
+blockquote .important {
+  font-weight: bold;
+}
+
+pre {
+  font-family: monospace;
+}

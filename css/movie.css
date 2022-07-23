@@ -1,0 +1,158 @@
+/* Assignment 3 - Movie Review CSS style */
+/* Author: Jargal Ganbaatar */
+/* WAP, Assignment, CS472 */
+
+body {
+  background-image: url("../images/background.png");
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma;
+  font-size: 8pt;
+}
+
+/* Head banner */
+.banner {
+  background-image: url("../images/bannerbg.png");
+  background-repeat: repeat-x;
+  height: 50px;
+  text-align: center;
+}
+
+/* Head title */
+.title {
+  font-family: Tahoma, Verdana;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: #999999 3px 3px;
+}
+
+/* Centered overall content area */
+.container {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+  border: gray 4px solid;
+  border-radius: 20px;
+}
+
+/* Left side of area */
+.area-left {
+  width: 550px;
+  float: left;
+}
+
+/* Right side of area */
+.area-right {
+  width: 250px;
+  float: left;
+}
+
+/* Bottom side of area */
+.area-bottom {
+  background-color: #a2b964;
+  text-align: center;
+  padding: 5px;
+  clear: both;
+}
+
+.area-title {
+  background-image: url("../images/rbg.png");
+  background-repeat: repeat-x;
+  height: 83px;
+}
+
+.area-title img {
+  float: left;
+}
+
+.area-title p {
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+  opacity: 1;
+  margin: 0;
+}
+
+/* Reviews area */
+.area-review {
+  padding: 10px 0px;
+}
+
+/* Column of review */
+.review {
+  float: left;
+  width: 47%;
+  padding-left: 2%;
+}
+
+/* Review box */
+.review-box {
+  background-color: #e8dc9b;
+  border: gray 2px solid;
+  border-radius: 10px;
+  font-size: 8pt;
+  font-weight: bold;
+  padding: 10px;
+  overflow: auto;
+}
+
+.review-box img {
+  float: left;
+  padding-right: 5px;
+}
+
+.review-info {
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 20pt;
+}
+
+.review-info img {
+  float: left;
+  padding-right: 5px;
+}
+
+.review-info span {
+  font-style: italic;
+}
+
+/* General overview */
+.area-overview {
+  background-color: #a2b964;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  padding-bottom: 10pt;
+}
+
+.area-overview img {
+  width: 100%;
+}
+
+.area-overview dl {
+  padding-left: 10pt;
+  padding-right: 10pt;
+  margin: 0;
+}
+
+.area-overview dl dt {
+  font-weight: bold;
+  margin-top: 10pt;
+}
+
+.area-overview dl dd > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Footer area */
+.footer {
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+}
