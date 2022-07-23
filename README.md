@@ -1,3 +1,0 @@
-# WAP_LAB
-
-LABS FOR WAP 2022
