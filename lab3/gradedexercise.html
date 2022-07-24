@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="../css/gradedexercise.css" />
+</head>
+
+<body>
+    <h1>Retrieve your grade</h1>
+
+    <form action="http://mumstudents.org/params.php">
+        <fieldset>
+            <label for="studentName"> Full Name:</label>
+            <input type="text" id="studentName" name="stuentName" placeholder="Name" /><br>
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="stuentId" placeholder="ID" /><br>
+
+            <label for="assignmentSelect">Assignment:</label>
+            <select name="assignment" id="assignmentSelect">
+      <option value="homework 01">Lab 01</option>
+      <option value="homework 02"> Lab 02</option>
+      <option value="homework 03">Lab 03</option>
+    </select>
+
+            <br>
+
+
+            <label for="feb">Student's Entry:</label><br>
+            <input type="radio" id="feb" name="stuentEntry" value="February">
+            <label for="feb">February</label><br>
+            <input type="radio" id="may" name="stuentEntry" value="May">
+
+            <label for="may">May</label><br>
+            <input type="radio" id="aug" name="stuentEntry" value="August">
+
+            <label for="aug">August</label><br>
+            <input type="radio" id="nov" name="stuentEntry" value="November">
+
+            <label for="nov">November</label><br>
+
+
+            <br>
+
+            <input type="checkbox" id="acknowledge" name="acknowledge" value="acknowledge">
+            <label for="acknowledge"> I hereby declare that the information provided is true and correct.</label><br>
+
+            <br>
+
+
+
+            <input type="submit" value="Submit" /><br>
+    </form>
+    </fieldset>
+</body>
+
+</html>
