@@ -92,7 +92,7 @@ var maze = (function()
             checkCollisions();
             if(collission(start,end))
             {
-                $("#status").text("Awesome,you win !!!!!!!! ");
+                $("#status").text("Congrats! You won! ");
                 $(".example").addClass("youwin");
                 $(start).css("left","0px");
                 $(start).css("top","210px");
