@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node JS and Express JS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <form method="POST" action="/calculate">
+      <h2>Assignment 13 - Node JS and Express JS</h2>
+      <div class="calculator">
+        <p>Enter two numbers and select operation</p>
+        <input
+          type="number"
+          id="first"
+          name="first"
+          step="0.01"
+          placeholder="First number"
+        />
+        <input
+          type="number"
+          id="second"
+          name="second"
+          step="0.01"
+          placeholder="Second number"
+        />
+        <select id="operation" name="operation">
+          <option selected>Select ...</option>
+          <option>add</option>
+          <option>subtract</option>
+          <option>multiply</option>
+          <option>divide</option>
+        </select>
+        <input type="submit" name="calculate" value="Calculate" />
+      </div>
+    </form>
+  </body>
+</html>
