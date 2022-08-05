@@ -1,0 +1,47 @@
+body, button {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0px;
+	text-align: center;
+}
+
+#puzzlearea {
+	font-family: sans-serif;
+	font-size: 32pt;
+	height: 400px;
+	width: 400px;
+	padding: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Applied to the puzzle pieces*/
+.puzzlepiece {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	border: 2px solid black;
+	cursor: default;
+	color: yellowgreen;
+	height: 96px;
+	line-height: 96px;
+	/*position: absolute;*/
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+}
+
+/* Applied to pieces that can move when mouse hovers */
+.movablepiece:hover {
+	border:4px solid red;
+	color: red;
+}
