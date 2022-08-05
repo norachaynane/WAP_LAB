@@ -27,7 +27,7 @@ h1 {
 
 /* Applied to the puzzle pieces*/
 .puzzlepiece {
-	background-image: url("../images/background.jpg");
+	background-image: url("./images/background.jpg");
 	background-repeat: no-repeat;
 	border: 2px solid black;
 	cursor: default;
